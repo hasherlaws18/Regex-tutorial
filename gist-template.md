@@ -62,17 +62,44 @@ Here is an example of Flags
 `/hello/gi`
 ### Grouping and Capturing
 
+In regular expressions, grouping and capturing are used to extract specific parts of a matched string. Grouping is the process of enclosing a portion of the regular expression pattern in parentheses (()), which creates a group. Capturing is the process of storing the matched substring of a group in a separate memory location, which can be accessed later.
+
+Here is example of Grouping and Capturing
+(\w+)\s+(\w+)\s+\((\d+)\)
+
 
 ### Bracket Expressions
+ A bracket expression is a way to match a single character from a set of range of characters.
+
+ Here is example of Bracket Expressions
+
+ [abc]
 
 ### Greedy and Lazy Match
+Greedy and lazy matching refer to how the regex engine tries to match patterns.
+
+Here is example of Greedy and Lazy Match
+
+'a+' == 'aaa'
 
 ### Boundaries
+In regular expressions, boundaries are used to match positions within the input string instead of matching characters. Boundaries can be used to match the beginning or end of a word, the beginning or end of a line, or the boundary between a word character and a non-word character.
+
+Here is example of Boundaries
+/bdog
 
 ### Back-references
+back-references are regular expression commands which refer to a previous part of the matched regular expression. 
 
+Here is example of back-references
+(\w+)\s\1
 ### Look-ahead and Look-behind
+
+Lookahead and lookbehind are advanced features in regular expressions that allow you to check for a pattern ahead of or behind the current matching position, without actually including it in the match. 
+
+Here is example of Look-ahead and Look-behind
+ hello(?= world): 
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Houston Asher-Laws https://github.com/hasherlaws18
